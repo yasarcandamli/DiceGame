@@ -1,0 +1,59 @@
+:root {
+  --background-color: #31363e;
+  --main-color: #00cb96;
+}
+#root {
+  height: 100vh;
+}
+.App {
+  background-color: var(--background-color);
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* GAME */
+.game {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/* PLAYERS */
+.players {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 50px;
+  color: var(--main-color);
+}
+
+/* PLAYER */
+.player {
+  text-align: center;
+}
+.player-name {
+  padding: 10px;
+}
+.player-name-input {
+  padding: 15px 10px;
+  font-size: large;
+  text-align: center;
+}
+
+/* BUTTON */
+.play-btn {
+  margin: 25px;
+  padding: 10px 20px;
+  width: 60%;
+  height: 50px;
+  background-color: var(--main-color);
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.4rem;
+}
