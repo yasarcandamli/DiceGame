@@ -2,6 +2,10 @@
 
 Welcome to the Dice Game! This is a simple two-player game where players roll dice, and the player with the highest score wins. If both players roll the same score, it's a draw.
 
+## Live Site
+
+You can visit the live site [here](https://dice-game-lyart-six.vercel.app/) to try out the game!
+
 ## Features
 
 - Players can input their names by clicking on their names.
